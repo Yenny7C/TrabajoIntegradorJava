@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap');
+
+style>body {
+    font-family: 'AR One Sans', sans-serif;
+}
+
+.header {
+    padding-top: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(Images/ba1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 770px;
+    color: white;
+
+}
+
+.navbar {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    background-color: #353a40; /* Color de fondo gris, puedes cambiarlo según tus preferencias */
+}
+.navbar-nav {
+  font-size: 18px;
+  margin-right: 75px;
+}
+
+.navbar-brand {
+    font-size: 24px; /* Ajusta el tamaño del texto según tus preferencias */
+    display: flex;
+    align-items: center;
+}
+.navbar-brand {
+    margin-left: 20px;
+    border-radius: 5px; /* Agrega esquinas redondeadas al fondo */
+    color: white; /* Color del texto */
+}
+.navbar-brand img {
+    width: 120px; /* Ajusta el ancho según tus preferencias */
+    height: auto; /* Esto mantendrá la proporción original de la imagen */
+}
+h1 {
+    font-size: 50px;
+    /* Tamaño de fuente para el párrafo */
+    text-align: right;
+    /* Alinea el párrafo a la derecha */
+    margin-top: 150px;
+    margin-right: 75px;
+}
+
+p {
+    font-size: 22px;
+    /* Tamaño de fuente para el párrafo */
+    text-align: right;
+    /* Alinea el párrafo a la derecha */
+    margin-right: 75px;
+}
+
+.custom_div{
+    margin-right: 20px;
+}
+
+btn-outline-light {
+    align-self: auto;
+}
+btn-success {
+    margin-right: 100px;
+}
+h5{
+    text-align: left;
+}
+.caja1 {
+ text-align: left;
+ margin: 5px, 5px, 5px, 5px;
+}
+.javascript{
+    font-size: small;
+    font-weight: bold;
+    background-color: rgb(253, 229, 7);
+    border-radius: 8px; /* Define el radio de las esquinas */
+    padding: 4px 6px; /* Espaciado interno del cuadro (arriba/abajo, izquierda/derecha) */
+    display: inline-block;
+    
+}
+.react{
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(68, 186, 216);
+    border-radius: 8px; /* Define el radio de las esquinas */
+    padding: 4px 6px; /* Espaciado interno del cuadro (arriba/abajo, izquierda/derecha) */
+    display: inline-block;
+}
+.negocios{
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(167, 167, 167);
+    border-radius: 8px; /* Define el radio de las esquinas */
+    padding: 4px 6px; /* Espaciado interno del cuadro (arriba/abajo, izquierda/derecha) */
+    display: inline-block;
+
+}
+.startups {
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(241, 29, 29);
+    border-radius: 8px; /* Define el radio de las esquinas */
+    padding: 4px 6px; /* Espaciado interno del cuadro (arriba/abajo, izquierda/derecha) */
+    display: inline-block;
+
+}
+.card-text {
+    margin-right: 0px;
+    text-align: center;
+}
+
+.segundo-parrafo {
+    font-size: 22px;
+    text-align: left;
+}
+.anotate {
+    text-align: center;
+}
+.texto-formulario {
+    font-size: 18px;
+    text-align: left;
+}
+.custom-button {
+    width: 100%;
+    background-color: rgb(41, 167, 68);
+}
+.footer-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-list li {
+    display: inline-block;
+    margin-right: 10px; /* Espaciado entre elementos (ajusta según sea necesario) */
+}
+.footer-list a {
+    text-decoration: none;
+}
+/* Estilos para la barra de navegación */
+.navbar-nav {
+    margin-left: auto;
+    /* Alinea los elementos a la izquierda */
+}
+.navbar-nav a {
+    color: white;
+}
+.navbar-nav .nav-link:first-child {
+    color: white;
+}
+
+/* Estilo para el enlace "Comprar tikets" */
+.navbar-nav .nav-link:last-child {
+    color: rgb(41, 160, 68);
+}
+.footer{
+    background-color: rgb(31, 82, 113);
+}
+.footer .nav-item {
+    margin-right: 20px; /* Espacio horizontal entre elementos de la lista */
+}
+.footer .nav-link {
+    color: white !important;
+}
+
